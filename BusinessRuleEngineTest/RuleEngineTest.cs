@@ -24,7 +24,7 @@ namespace BusinessRuleEngineTest
         {
             var emailService = new EmailService();
             OrderFulfilment orderFulfilment = new Membership(emailService);
-            var order = orderFulfilment.FulfilOrder();//
+            var order = orderFulfilment.FulfilOrder();//test
         }
     }
 }
